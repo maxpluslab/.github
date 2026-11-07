@@ -12,7 +12,7 @@ This is the special `.github` repository of the `maxpluslab` GitHub organization
 
 ## People and projects
 
-MaxPlus Lab is a collaboration between Madeline V. Brandt (mathematician) and Igor Kuvychko (scientist and engineer).
+MaxPlus Lab is a collaboration between Madeline V. Brandt (mathematician, GitHub `madeline-v-brandt`) and Igor Kuvychko (scientist and engineer, GitHub `kuvychko`).
 
 Projects listed on the profile:
 
