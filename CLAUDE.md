@@ -22,7 +22,7 @@ Projects listed on the profile:
 ## Editing the profile
 
 - Keep claims in line with what the project repositories actually contain; check the project's README "Status" section before describing features or plans.
-- Keep it short: a short paragraph (at most one headline finding) and a row of links per project.
+- Each project gets a short paragraph and a row of links. A shared findings section may hold up to three findings and must end with a caveat line (search nodes are not running time or human difficulty; results are computational evidence, not proof). Each finding must match the tiling-solvers README "What we've learned so far" and name puzzles by their public names. A short "Questions we're exploring" section is allowed.
 - Use plain GitHub-flavored Markdown that renders on github.com; avoid HTML unless needed for layout.
 - Write the organization name as **MaxPlusLab** in prose; only URLs are lower case.
 - Refer to puzzles by their public names (Hill 16b, Corrugated 27a; `-r`/`-f` for relief/flat), not internal ids like `new2` or `cor1`. The mapping is in `tropical-puzzle-lab/docs/puzzle-format.md#names`.
