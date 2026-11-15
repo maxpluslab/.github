@@ -12,15 +12,20 @@ This is the special `.github` repository of the `maxpluslab` GitHub organization
 
 ## People and projects
 
-MaxPlus Lab is a collaboration between Madeline V. Brandt (mathematician, GitHub `madeline-v-brandt`) and Igor Kuvychko (scientist and engineer, GitHub `kuvychko`).
+MaxPlusLab is a collaboration between Madeline V. Brandt (mathematician, GitHub `madeline-v-brandt`) and Igor Kuvychko (scientist and engineer, GitHub `kuvychko`).
 
 Projects listed on the profile:
 
 - **Tropical Puzzle Lab**: https://github.com/maxpluslab/tropical-puzzle-lab, played at https://maxpluslab.github.io/tropical-puzzle-lab/. A local checkout usually sits at `C:\Repos\tropical-puzzle-lab`; its README and `docs/` are the source of truth for what the project does and plans.
+- **Tiling Solvers**: https://github.com/maxpluslab/tiling-solvers, a solver laboratory (Rust search, OR-Tools CP-SAT) for the puzzles Tropical Puzzle Lab publishes. A local checkout usually sits at `C:\Repos\tiling-solvers`; its README ("What we've learned so far", "Status") is the source of truth for findings.
 
 ## Editing the profile
 
 - Keep claims in line with what the project repositories actually contain; check the project's README "Status" section before describing features or plans.
-- Keep it short: a one-line description and links per project.
+- Keep it short: a short paragraph (at most one headline finding) and a row of links per project.
 - Use plain GitHub-flavored Markdown that renders on github.com; avoid HTML unless needed for layout.
+- Write the organization name as **MaxPlusLab** in prose; only URLs are lower case.
+- Refer to puzzles by their public names (Hill 16b, Corrugated 27a; `-r`/`-f` for relief/flat), not internal ids like `new2` or `cor1`. The mapping is in `tropical-puzzle-lab/docs/puzzle-format.md#names`.
+- No spoilers: never show a solved puzzle (photo or render). Partly assembled, scrambled or dead-end shots are fine.
+- Images live in `profile/images/` with web-safe names; shrink photos to about 1200 px on the long side before committing.
 - Verify every link before committing.
