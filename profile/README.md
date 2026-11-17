@@ -2,7 +2,9 @@
 
 *Where mathematics becomes something you can play with.*
 
-**[Play a puzzle](https://maxpluslab.github.io/tropical-puzzle-lab/)** · **[Print a puzzle](https://maxpluslab.github.io/tropical-puzzle-lab/?page=print)** · **[Explore the mathematics](https://maxpluslab.github.io/tropical-puzzle-lab/?page=math)** · **[Study the solvers](https://github.com/maxpluslab/tiling-solvers)**
+**[Play online](https://maxpluslab.github.io/tropical-puzzle-lab/)** · **[Learn the math](https://maxpluslab.github.io/tropical-puzzle-lab/?page=math)** · **[Print a puzzle](https://maxpluslab.github.io/tropical-puzzle-lab/?page=print)** · **[Explore the solvers](https://github.com/maxpluslab/tiling-solvers)**
+
+No mathematics needed to play: open the puzzle in your browser, drag the pieces into the tray, and see if you can make them fit.
 
 <table>
 <tr>
@@ -25,7 +27,7 @@ Our projects form a feedback loop: **mathematics generates puzzles; people and a
 
 A tropical polynomial or rational function divides a plane into regions. We turn those regions into pieces of a geometric tiling puzzle. In **flat mode**, the challenge is to fit the outlines together. In **relief mode**, each piece has a sloping top, and the completed puzzle forms a continuous surface.
 
-Nine puzzle designs are playable in the browser in both modes. You can also generate STL files, 3D-print the pieces and tray, and explore the mathematics behind their construction.
+The tropical puzzles come in four families: **Bowl** and **Hill** (tropical polynomials), and **Terrain** and **Corrugated** (tropical rational functions). Alongside them, **Pleat** is a related experiment that is *not* tropical: a triangulated square lifted so that its corners stand at only two heights, which makes many edges look alike. Every puzzle can be played in the browser in both modes. You can also generate STL files, 3D-print the pieces and tray, and explore the mathematics behind their construction. Each puzzle card shows an experimental difficulty rating based on how hard a computer search has to work, not on how hard people find it.
 
 [**Play the puzzles**](https://maxpluslab.github.io/tropical-puzzle-lab/) · [How the mathematics works](https://maxpluslab.github.io/tropical-puzzle-lab/?page=math) · [3D printing guide](https://maxpluslab.github.io/tropical-puzzle-lab/?page=print) · [Printables collection](https://www.printables.com/@Igor_2829688/collections/3919682) · [Code and puzzle definitions](https://github.com/maxpluslab/tropical-puzzle-lab)
 
@@ -43,7 +45,7 @@ Our [tiling-solvers](https://github.com/maxpluslab/tiling-solvers) project combi
 
 **Structure can matter even more than an improved algorithm.** Tropical subdivisions have an *edge-to-edge* structure. Restricting the same flat puzzle to edge-to-edge assemblies reduced its search to **49 nodes**. This is an explicit restriction on the allowed assemblies, not a general-purpose shortcut: flat pieces can sometimes form other, T-junction assemblies.
 
-**Difficulty is not simply piece count.** The 11-piece Terrain 11a has **101** distinct footprint assemblies in our search but only **one** with its roofs. We've also designed **Corrugated 27a**, a 27-piece puzzle whose repeated ridge and valley heights deliberately make the relief search work harder.
+**Difficulty is not simply piece count.** The 11-piece Terrain 11a has **101** distinct footprint assemblies in our search but only **one** with its roofs. Roofs can also be made to help less: the 32-piece **Pleat 32a**, whose corners stand at just two heights, takes **21,973** nodes with its roofs on, compared with **1,529** for the 27-piece **Corrugated 27a**. Pleat 32a is hard for this search, not for every method: a CP-SAT solver settles it without a single conflict.
 
 <img src="images/corrugated-27a-r-dead-end.jpg" alt="The 3D-printed Corrugated 27a relief puzzle at a dead end, with pieces remaining" width="380">
 
@@ -55,9 +57,11 @@ Our [tiling-solvers](https://github.com/maxpluslab/tiling-solvers) project combi
 
 Can measurements from search help us design better difficulty ratings? Which geometric features make a puzzle hard for people, rather than just for an algorithm? Can we use the mathematics of tropical constructions to create new kinds of challenging, printable puzzles?
 
+Next on our list: more puzzles and parametric families, touch input for phones and tablets, and further studies of what makes a puzzle difficult.
+
 ## Get involved
 
-You don't need to know tropical geometry to participate. **Play a puzzle**, **print one**, or **tell us what made it easy or difficult**. If you're interested in mathematics, geometry, algorithms, or making things, explore the repositories and share an idea or open an issue:
+You don't need to know tropical geometry to participate. **Play a puzzle**, **print one**, or **tell us what made it easy or difficult**. If you're interested in mathematics, geometry, algorithms, or making things, explore the repositories. Feedback, ideas and questions are welcome as issues:
 
 [Tropical Puzzle Lab issues](https://github.com/maxpluslab/tropical-puzzle-lab/issues) · [Tiling Solvers issues](https://github.com/maxpluslab/tiling-solvers/issues)
 
